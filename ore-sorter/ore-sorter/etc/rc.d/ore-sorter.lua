@@ -1,4 +1,4 @@
-local app = require('umfal').initAppFromAbsolute('ore-sorter', '/bin/apps/ore-sorter');
+local app = require('umfal').initAppFromAbsolute('ore-sorter', '/bin/ore-sorter');
 
 local shell = require('shell');
 local event = require('event');
