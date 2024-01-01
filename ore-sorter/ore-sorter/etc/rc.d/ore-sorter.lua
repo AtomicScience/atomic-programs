@@ -1,5 +1,4 @@
 local app = require('umfal').initAppFromAbsolute('ore-sorter', '/bin/apps/ore-sorter');
-print('Got new app');
 
 local shell = require('shell');
 local event = require('event');
