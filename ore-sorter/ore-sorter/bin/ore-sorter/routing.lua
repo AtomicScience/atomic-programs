@@ -84,7 +84,13 @@ module.hasFreeSlot = {
 }
 
 function module.inputItemNameAt(slot)
-  return lTr.getStackInSlot(sides.bottom, slot).label;
+  local stack = lTr.getStackInSlot(sides.bottom, slot);
+
+  if not stack then
+    return nil;
+  else
+    return stack.label;
+  end
 end
 
 function module.inputSize()
