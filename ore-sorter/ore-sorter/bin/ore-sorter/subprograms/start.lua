@@ -18,7 +18,7 @@ return function(args, ops, runtimeData)
   end
 
   print('Starting ore sorting...');
-  runtimeData.timerId = event.timer(2, timerFunc, math.huge);
+  runtimeData.timerId = event.timer(0.5, timerFunc, math.huge);
   -- timerFunc();
   print('Sorting started, timerId: '..runtimeData.timerId);
 end

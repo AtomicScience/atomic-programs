@@ -13,8 +13,6 @@ function module.attemptToMoveItem(slot)
     targetColor = 'black'
   end
 
-  print(targetColor);
-
   local hasFreeSlot = app.routing.hasFreeSlot[targetColor]();
 
   if hasFreeSlot then
