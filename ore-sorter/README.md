@@ -2,7 +2,7 @@
 A small silly program for my GTNH run.
 Usage not advised
 
-## 2.0 Ideas
+## 1.0 Ideas
 - Move from name-only sorting
 - Stop the usage of colors, implicilty name processing steps instead
 - Show only unique items in scanned items list
