@@ -5,8 +5,11 @@ local event = require('event');
 
 local runtimeData = {}
 
+-- When in dev mode, resets RC cache after every rerun
+runtimeData.isInDevMode = true;
+
 function start(...)
-  local args, ops = shell.parse(...);  
+  local args, ops = shell.parse(...);
 
   app.subprograms.start(args, ops, runtimeData);
 end
@@ -28,3 +31,15 @@ function scan(...)
 
   app.subprograms.scan(args, ops, runtimeData);
 end
+
+function wizard(...)
+  local args, ops = shell.parse(...)
+
+  app.subprograms.wizard(args, ops, runtimeData);
+end
+
+event.timer(0, function ()
+  if runtimeData.isInDevMode then
+    require('rc').unload('ore-sorter');
+  end
+end)

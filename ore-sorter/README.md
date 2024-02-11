@@ -1,6 +1,6 @@
 # Ore-sorter
 A small silly program for my GTNH run.
-Usage not advised
+Usage not advised (yet)
 
 ## 1.0 Ideas
 - Move from name-only sorting
@@ -15,6 +15,7 @@ Usage not advised
 - Add ability to input items by typing a name
 - Add a separate line for intermediate products
 - Add support for sorted and unsorted input lines
+- Add support for a configurable 'overflow' chest
 - ? Add option to specify amount of items to be moved, not only type (e.g. for electrolyzing)
 - ? Autosampling to 'black'
 - ? Implement saving/loading of filters to/from Pastebin
