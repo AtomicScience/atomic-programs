@@ -1,5 +1,15 @@
 local app, transposers = require('umfal')('ore-sorter');
 local component = require('component');
+local sides = require('sides');
+
+transposers.sides = {
+  sides.bottom,
+  sides.top,
+  sides.north,
+  sides.south,
+  sides.west,
+  sides.east
+}
 
 function transposers.getAllTransposers()
   local list = {}

@@ -71,3 +71,8 @@ end
 function cli.positiveBeep()
   computer.beep(1400, 0.1);
 end
+
+function cli.shiftCursorBy(byCol, byRow)
+  local col, row = term.getCursor();
+  term.setCursor(col + byCol, row + byRow);
+end
