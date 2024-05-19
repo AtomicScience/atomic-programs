@@ -2,23 +2,23 @@ local app = require('umfal')('ore-sorter');
 local event = require('event');
 local computer = require('computer');
 
-return function(args, ops, runtimeData)
-  if runtimeData.timerId then
+return function(args, ops, context)
+  if context.timerId then
     print('Sorting already running');
     return;
   end
 
   local inputSize = app.routing.inputSize();
-  runtimeData.currentSlot = 1
+  context.currentSlot = 1
 
   local function timerFunc()
-    app.sorter.attemptToMoveItem(runtimeData.currentSlot);
+    app.sorter.attemptToMoveItem(context.currentSlot);
 
-    runtimeData.currentSlot = (runtimeData.currentSlot % inputSize) + 1;
+    context.currentSlot = (context.currentSlot % inputSize) + 1;
   end
 
   print('Starting ore sorting...');
-  runtimeData.timerId = event.timer(0.5, timerFunc, math.huge);
+  context.timerId = event.timer(0.5, timerFunc, math.huge);
   -- timerFunc();
-  print('Sorting started, timerId: '..runtimeData.timerId);
+  print('Sorting started, timerId: '..context.timerId);
 end

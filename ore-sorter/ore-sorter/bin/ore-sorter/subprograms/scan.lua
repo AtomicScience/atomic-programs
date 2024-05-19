@@ -1,6 +1,6 @@
 local app = require('umfal')('ore-sorter');
 
-return function(args, ops, runtimeData)
+return function(args, ops, context)
   if not args[1] then
     print('ERROR: Provide a color')
     return;

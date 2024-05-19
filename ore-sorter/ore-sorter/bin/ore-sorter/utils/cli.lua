@@ -2,6 +2,7 @@ local app, cli = require('umfal')('ore-sorter');
 local term = require('term');
 local text = require('text');
 local computer = require('computer');
+local gpu   = require('component').gpu;
 
 function cli.getConfirmation(question, defaultToYes)
   local input = cli.inquire(question, defaultToYes and 'Y' or 'y', 'n');
@@ -18,10 +19,11 @@ end
 function cli.getConfirmationOrExit(question, defaultToYes)
   term.setCursor(1, 16);
 
+  local positiveOption = defaultToYes and 'Y' or 'y'; -- defaultToYes ? 'Y' : 'y'
   while true do
-    local input = cli.inquire(question, defaultToYes and 'Y' or 'y', 'q');
+    local input = cli.inquire(question, positiveOption, 'q');
 
-    term.clearLine();
+    cli.clearLine();
     if input == '' and defaultToYes then
       cli.positiveBeep();
       return true;
@@ -50,7 +52,7 @@ end
 function cli.fancyExit(actuallyExit)
   print('Exiting...');
   os.sleep(0.5);
-  term.clear();
+  cli.clear();
   if actuallyExit then os.exit(); end
 end
 
@@ -70,6 +72,17 @@ end
 
 function cli.positiveBeep()
   computer.beep(1400, 0.1);
+end
+
+function cli.clear()
+  gpu.fill(1, 1, 50, 16, ' ');
+  term.setCursor(1, 1);
+end
+
+function cli.clearLine()
+  local x, y = term.getCursor();
+  gpu.fill(1, y, 50, 1, ' ');
+  term.setCursor(1, y);
 end
 
 function cli.shiftCursorBy(byCol, byRow)
