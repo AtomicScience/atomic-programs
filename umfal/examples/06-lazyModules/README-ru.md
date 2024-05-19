@@ -1,5 +1,5 @@
 # Ленивые модули
-[This material is available in **English**](https://github.com/AtomicScience/UMFAL/tree/master/examples/06-lazyModules)
+[This material is available in **English**](https://github.com/AtomicScience/atomic-programs/tree/master/umfal/examples/06-lazyModules)
 
 Этот пример демонстрирует, пожалуй, самую крутую возможность UMFAL - **ленивые модули**
 

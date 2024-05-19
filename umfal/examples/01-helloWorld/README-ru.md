@@ -1,5 +1,5 @@
 # Hello, World!
-[This material is available in **English**](https://github.com/AtomicScience/UMFAL/tree/master/examples/01-helloWorld)
+[This material is available in **English**](https://github.com/AtomicScience/atomic-programs/tree/master/umfal/examples/01-helloWorld)
 
 Этот пример объясняет три базовых темы UMFAL:
 1. Инициализация приложения

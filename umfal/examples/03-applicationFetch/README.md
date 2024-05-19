@@ -1,5 +1,5 @@
 # Application fetch
-[Этот материал доступен на **русском**](https://github.com/AtomicScience/UMFAL/blob/master/examples/03-applicationFetch/README-ru.md)
+[Этот материал доступен на **русском**](https://github.com/AtomicScience/atomic-programs/blob/master/umfal/examples/03-applicationFetch/README-ru.md)
 
 This example explains, how modules can be linked with each other using **application fetch**.
 

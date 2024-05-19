@@ -1,5 +1,5 @@
 # "Hello, World!" Extreme
-[Этот материал доступен на **русском**](https://github.com/AtomicScience/UMFAL/blob/master/examples/02-helloWorldExtreme/README-ru.md)
+[Этот материал доступен на **русском**](https://github.com/AtomicScience/atomic-programs/blob/master/umfal/examples/02-helloWorldExtreme/README-ru.md)
 
 This example is an extended version of the first one, aiming to show how UMFAL deals with more than one module, and also to demonstrate, how to initialize an application with **level delta** parameter
 

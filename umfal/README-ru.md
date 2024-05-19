@@ -1,6 +1,6 @@
 # UMFAL
 
-[This content is available in **English**](https://github.com/AtomicScience/UMFAL)
+[This content is available in **English**](https://github.com/AtomicScience/atomic-programs/tree/master/umfal)
 
 Меня всегда раздражал факт того, что почти все программисты в комьюнити OpenComputers - даже если они невероятно опытны и круты - пишут свои программы в огромных файлах с **тысячами** строк
 
@@ -16,7 +16,7 @@
 ## Загрузка
 Последняя версия UMFAL загружается следующей командой:
 ```
-wget -f https://github.com/AtomicScience/UMFAL/releases/latest/download/umfal.lua /lib/umfal.lua
+wget -f https://raw.githubusercontent.com/AtomicScience/atomic-programs/master/umfal/umfal.lua /lib/umfal.lua
 ```
 
 ## Что такое UMFAL?
@@ -25,7 +25,7 @@ UMFAL (расшифровывается как **Unified Multi-File Application 
 В некотором отношении, он похож на стандартный загрузчик Lua, и, можно сказать, является его реализацией для загрузки модулей **внутри** приложений, а не для загрузки библиотек.
 
 ## Как им пользоваться?
-Хотите освоить UMFAL на все 100%? В [примерах](https://github.com/AtomicScience/UMFAL/tree/master/examples) на практике продемонстрированы все аспекты библиотеки
+Хотите освоить UMFAL на все 100%? В [примерах](https://github.com/AtomicScience/atomic-programs/tree/master/umfal/examples) на практике продемонстрированы все аспекты библиотеки
 
 Если же вы просто хотите быстро познакомиться с UMFAL - продолжайте читать этот файл
 ## Основные возможноcти

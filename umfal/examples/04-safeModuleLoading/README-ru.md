@@ -1,5 +1,5 @@
 # Безопасная загрузка модулей
-[This material is available in **English**](https://github.com/AtomicScience/UMFAL/tree/master/examples/04-safeModuleLoading)
+[This material is available in **English**](https://github.com/AtomicScience/atomic-programs/tree/master/umfal/examples/04-safeModuleLoading)
 
 Все предыдущие примеры были **оптимистичны** - они были уверены в том, что модули находятся там, где они должны. Но что, если это не так
 

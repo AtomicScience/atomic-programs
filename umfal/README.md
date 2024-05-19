@@ -1,6 +1,6 @@
 # UMFAL
 
-[Этот материал доступен на **русском**](https://github.com/AtomicScience/UMFAL/blob/master/README-ru.md)
+[Этот материал доступен на **русском**](https://github.com/AtomicScience/atomic-programs/blob/master/umfal/README-ru.md)
 
 For me, one of the most frustrating things about the OpenComputers community is the fact, that no matter how complex one's program is, chances, that it's just one big file - sometimes up to **thousands** of lines - are extremely high.
 
@@ -16,7 +16,7 @@ Enjoy!
 ## Download
 Latest version of UMFAL can be obtained with this command:
 ```
-wget -f https://github.com/AtomicScience/UMFAL/releases/latest/download/umfal.lua /lib/umfal.lua
+wget -f https://raw.githubusercontent.com/AtomicScience/atomic-programs/master/umfal/umfal.lua /lib/umfal.lua
 ```
 
 ## What is UMFAL?
@@ -24,7 +24,7 @@ UMFAL (stands for **Unified Multi-File Application Loader**) is a library, that 
 
 It's somewhat similar to the 'stock' Lua module system, but it does not aim to replace it, but rather *reimplement* it to allow to link files within a single application
 ## How do I use it?
-If you feel like diving in the topic, check out [code examples](https://github.com/AtomicScience/UMFAL/tree/master/examples) that cover all the features of UMFAL.
+If you feel like diving in the topic, check out [code examples](https://github.com/AtomicScience/atomic-programs/tree/master/umfal/examples) that cover all the features of UMFAL.
 
 But if you just want to get familiar with what's UMFAL is capable of, below is a quick brief of its features:
 ## Features brief

@@ -1,5 +1,5 @@
 # "Hello, World!" Extreme
-[This material is available in **English**](https://github.com/AtomicScience/UMFAL/tree/master/examples/02-helloWorldExtreme)
+[This material is available in **English**](https://github.com/AtomicScience/atomic-programs/tree/master/umfal/examples/02-helloWorldExtreme)
 
 Этот пример - расширенная версия предыдущего - демонстрирует, как UMFAL работает со множеством модулей, а также - как приложения можно инициализировать со специальным параметром **дельты уровня**
 

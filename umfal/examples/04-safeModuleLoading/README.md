@@ -1,5 +1,5 @@
 # Safe Module Loading
-[Этот материал доступен на **русском**](https://github.com/AtomicScience/UMFAL/blob/master/examples/04-safeModuleLoading/README-ru.md)
+[Этот материал доступен на **русском**](https://github.com/AtomicScience/atomic-programs/blob/master/umfal/examples/04-safeModuleLoading/README-ru.md)
 
 All the previous examples were **optimistic** - they were assuming that all the modules always are where they are expected to be. But what if it's not the case?
 

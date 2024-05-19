@@ -1,5 +1,5 @@
 # Подгрузка приложений
-[This material is available in **English**](https://github.com/AtomicScience/UMFAL/tree/master/examples/03-applicationFetch)
+[This material is available in **English**](https://github.com/AtomicScience/atomic-programs/tree/master/umfal/examples/03-applicationFetch)
 
 Этот пример объясняет, как пользоваться возможностями UMFAL не только в точке входа, но и в других модулях, с помощью механизма **подгрузки приложений**.
 
